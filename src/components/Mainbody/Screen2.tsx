@@ -1,6 +1,8 @@
 import './styles/mainbody.css';
 import './styles/screen2.css';
 import { Link } from "react-router-dom";
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
 
 const Screen2 = () => {
     return (
@@ -25,8 +27,8 @@ const Screen2 = () => {
                 </div>
 
                 <div className="screen2_img">
-                    <img className="school_img" src="https://nuw.store/upload/iblock/61c/p4u17sr57drclbr7mpqvzxb045tta1y6.jpg"/>
-                    <img className="school_img" src="https://nuw.store/upload/iblock/8b6/2yjd23mrb8ku4tylmyy91sgrc1z14m6w.jpg"/>
+                    <img className="school_img" src={img1}/>
+                    <img className="school_img" src={img2}/>
                 </div>
 
                 <div className="line_with_">
